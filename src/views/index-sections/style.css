@@ -1,0 +1,113 @@
+.left {
+    float: left;
+    width: 35%;
+    padding-right: 5%;
+}
+.right {
+    float: right;
+    width: 60%;
+}
+
+.left2 {
+    float: left;
+    width: 48%;
+    padding-right: 4%;
+}
+.right2 {
+    float: right;
+    width: 48%;
+}
+.left2 {
+    float: left;
+    width: 48%;
+    padding-right: 4%;
+}
+.right2 {
+    float: right;
+    width: 48%;
+}
+.left3 {
+    float: left;
+    width: 28%;
+    padding-right: 4%;
+}
+.right3 {
+    float: right;
+    width: 68%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.group:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 480px) {
+    .left, .right {
+        float: none;
+        width: auto;
+    }
+    
+}
+
+.footerBoj{
+    height: "270px";
+    margin-bottom: "30px";
+    padding-top: "30px";
+}
+
+@media screen and (max-width: 1100px) {
+    .left2, .right2 {
+        float: none;
+        width: auto;
+    }
+    .left3, .right3 {
+        float: none;
+        width: auto;
+    }
+
+    .acontent{
+        margin-bottom: 50px;
+        text-align: left;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .ccontenttitle{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.acontent{
+    margin-bottom: 50px;
+    text-align: left;
+    color: black;
+}
+
+.ccontent{
+    float: "left";
+    width: "30px";
+    height: "100%";
+    text-align: left;
+    color: black;
+}
+
+.ccontenttitle{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.ccontentbread{
+    color: black;
+}
+
+.texts{
+    margin-top: -170px;
+    color: "black"
+
+}

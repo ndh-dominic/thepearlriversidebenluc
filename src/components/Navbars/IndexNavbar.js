@@ -50,7 +50,7 @@ function IndexNavbar() {
           }}
         />
       ) : null}
-      <Navbar style={{fontSize: "large"}} className={"fixed-top " + navbarColor} expand="lg" color="info">
+      <Navbar style={{paddingTop: "5px", paddingBottom: "5px", opacity: "0.95", fontSize: "large", backgroundColor: "#17b2c9 !important"}} className={"fixed-top " + navbarColor} expand="lg" color="info">
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
@@ -59,7 +59,7 @@ function IndexNavbar() {
               id="navbar-brand"
             >
             <img
-              style={{borderRadius: "30px", opacity: "0.9", maxWidth: "200px"}}
+              style={{borderRadius: "30px", opacity: "0.9", maxWidth: "110px"}}
               alt="..."
               className="n-logo"
               src={require("assets/img/now-logo.png")}
