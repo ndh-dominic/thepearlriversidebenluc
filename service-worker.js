@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/thepearlriversidebenluc/precache-manifest.8b2f9d120444c2aa141167d2a3113d5e.js"
+  "/thepearlriversidebenluc/precache-manifest.41534fe318fa146184a26bffa5004da5.js"
 );
 
 self.addEventListener('message', (event) => {
