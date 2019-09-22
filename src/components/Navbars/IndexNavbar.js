@@ -50,7 +50,7 @@ function IndexNavbar() {
           }}
         />
       ) : null}
-      <Navbar className={"fixed-top " + navbarColor} expand="lg" color="info">
+      <Navbar style={{fontSize: "large"}} className={"fixed-top " + navbarColor} expand="lg" color="info">
         <Container>
           <div className="navbar-translate">
             <NavbarBrand
@@ -58,10 +58,15 @@ function IndexNavbar() {
               target="_blank"
               id="navbar-brand"
             >
-              Now UI Kit React
+            <img
+              style={{borderRadius: "30px", opacity: "0.9", maxWidth: "200px"}}
+              alt="..."
+              className="n-logo"
+              src={require("assets/img/now-logo.png")}
+            ></img>
             </NavbarBrand>
             <UncontrolledTooltip target="#navbar-brand">
-              Designed by Invision. Coded by Creative Tim
+              Liên hệ để được tư vấn hotline: 0908 201 363
             </UncontrolledTooltip>
             <button
               className="navbar-toggler navbar-toggler"
@@ -93,35 +98,10 @@ function IndexNavbar() {
                       .scrollIntoView();
                   }}
                 >
-                  <i className="now-ui-icons arrows-1_cloud-download-93"></i>
-                  <p>Download</p>
+                  <i className="now-ui-icons tech_mobile"></i>
+                  <p style={{fontSize: "medium", fontWeight: "bold", paddingTop: "4px"}}>Hotline: 0908 201 363</p>
                 </NavLink>
               </NavItem>
-              <UncontrolledDropdown nav>
-                <DropdownToggle
-                  caret
-                  color="default"
-                  href="#pablo"
-                  nav
-                  onClick={e => e.preventDefault()}
-                >
-                  <i className="now-ui-icons design_app mr-1"></i>
-                  <p>Components</p>
-                </DropdownToggle>
-                <DropdownMenu>
-                  <DropdownItem to="/index" tag={Link}>
-                    <i className="now-ui-icons business_chart-pie-36 mr-1"></i>
-                    All components
-                  </DropdownItem>
-                  <DropdownItem
-                    href="https://demos.creative-tim.com/now-ui-kit-react/#/documentation/introduction?ref=nukr-index-navbar"
-                    target="_blank"
-                  >
-                    <i className="now-ui-icons design_bullet-list-67 mr-1"></i>
-                    Documentation
-                  </DropdownItem>
-                </DropdownMenu>
-              </UncontrolledDropdown>
               <NavItem>
                 <Button
                   className="nav-link btn-neutral"

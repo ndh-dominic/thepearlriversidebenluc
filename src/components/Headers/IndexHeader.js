@@ -24,7 +24,7 @@ function IndexHeader() {
 
   return (
     <>
-      <div className="page-header clear-filter" filter-color="blue">
+      <div style={{background: "rgba(44, 44, 44, 0.5)"}} className="page-header clear-filter" >
         <div
           className="page-header-image"
           style={{
@@ -34,13 +34,9 @@ function IndexHeader() {
         ></div>
         <Container>
           <div className="content-center brand">
-            <img
-              alt="..."
-              className="n-logo"
-              src={require("assets/img/now-logo.png")}
-            ></img>
-            <h1 className="h1-seo">Now UI Kit.</h1>
-            <h3>A beautiful Bootstrap 4 UI kit. Yours free.</h3>
+            
+            <h1 style={{textShadow: "2px 2px 4px #000000", fontWeight: "900", fontFamily:'-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"'}} className="h1-seo">THE PEARL RIVERSIDE BẾN LỨC</h1>
+            <h3 style={{textShadow: "2px 2px 4px #000000", fontWeight: "900", fontFamily:'-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"'}} >Nhà phố thương mại ven sông</h3>
           </div>
           <h6 className="category category-absolute">
             Designed by{" "}
