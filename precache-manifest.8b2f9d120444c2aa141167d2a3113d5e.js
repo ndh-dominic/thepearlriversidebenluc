@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "17461df8d6cc0ba51537532f15fbcaa0",
+    "revision": "d1bb1da2173cbb203cf9635de34c0aee",
     "url": "/thepearlriversidebenluc/index.html"
   },
   {
-    "revision": "053ba2aeba9c0131d03f",
+    "revision": "0d17834a385f4825b304",
     "url": "/thepearlriversidebenluc/static/css/main.54d44e59.chunk.css"
   },
   {
-    "revision": "398ff1bc6cd0d2713354",
-    "url": "/thepearlriversidebenluc/static/js/2.1bcdcb24.chunk.js"
+    "revision": "0486030475ccdb4561c4",
+    "url": "/thepearlriversidebenluc/static/js/2.b8c2fe32.chunk.js"
   },
   {
-    "revision": "053ba2aeba9c0131d03f",
-    "url": "/thepearlriversidebenluc/static/js/main.1b8d05e1.chunk.js"
+    "revision": "0d17834a385f4825b304",
+    "url": "/thepearlriversidebenluc/static/js/main.0b2b4621.chunk.js"
   },
   {
     "revision": "ad344c0e5c79608bcd19",
@@ -64,8 +64,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/thepearlriversidebenluc/static/media/eva.089c4f4e.jpg"
   },
   {
-    "revision": "ffcc99c42164b65da7af6307b66379cf",
-    "url": "/thepearlriversidebenluc/static/media/header.ffcc99c4.jpg"
+    "revision": "05d113df67605547fb362e92de64b5a1",
+    "url": "/thepearlriversidebenluc/static/media/header.05d113df.jpg"
   },
   {
     "revision": "a76c7b4ce725bb07b1572699a5a78c62",
